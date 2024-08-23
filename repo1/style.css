@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+h5, p, h1 {
+    margin: 0;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.header {
+    flex-direction: column;
+    background-color: rgb(209, 108, 155);
+    padding-bottom: 32px;
+    flex: 1;
+}
+
+.header, .second-block, .third-block, .fourth-block {
+    display: flex;
+    padding-left:   170px; 
+    padding-right:  170px;
+
+} 
+ 
+.first-line {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+
+
+.first-line ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-block {
+    display: flex;
+    flex: 1;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 700px;
+    margin-top: 0;
+}
+
+.intro, p{
+    text-align: left;
+}
+
+.button {
+    max-width: 100px;
+    max-height: 32px;
+    border-radius: 8px;
+    background-color: rgb(150, 147, 151);
+    flex-shrink: 1;
+    margin: 48px 0;
+
+}
+
+.header img {
+    flex: 1;
+    max-width: 450px;
+    max-height: 250px;
+    align-self: center;
+}
+
+footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: small;
+    background-color:  rgb(198, 194, 199);
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.second-block {
+    flex: 1;
+    flex-direction: column;
+    height: 420px;
+    text-align: center;
+}
+.image-with-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.image-with-text img {
+    width: 100px;
+    height: 100px;
+}
+
+.third-block {
+    background-color: rgb(150, 147, 151);
+    height: 300px;
+    align-items: center;
+}
+
+.fourth-block {
+    height: 300px;
+}
+
+.final-section {
+    display: flex;
+    flex: 1 1 80px;
+    max-height: 80px;
+    background-color: rgb(209, 108, 155);
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.final-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 8px;
+    align-items: flex-start;
+
+}
